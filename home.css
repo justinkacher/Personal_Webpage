@@ -24,7 +24,7 @@ li a:hover{
   }
 .active {
     background-color: #feda6a;
-  }
+}
 
 
 body{
@@ -116,6 +116,30 @@ a{
   width: 30%;
   border: solid black 3px;
 }
+#code{
+  position: relative;;
+  top: -300px;
+  left: 10%;
+  height: 15%;
+  width: 30%;
+  border: solid black 3px;
+
+}
+#codetag{
+  position: relative;
+  color: white;
+  background-color: #1d1e22;
+  opacity: 70%;
+  position: relative;
+  height: 3%;
+  width: 30.25%;
+  left: 10%;
+  top: -420px;
+  text-align: center;
+  line-height: 75px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
 
 .ledpic{
   position: relative;
@@ -182,6 +206,6 @@ table, th, td{
 .invimg9{
   height: 90%;
 }
-body ,#invbody{
+#invbody{
   height: 100%;
 }
