@@ -325,7 +325,7 @@ h1{
 }
 #case{
   position: relative;
-  top: -17.5%;
+  top: -22.7%;
   color: white;
   background-color: #1d1e22;
   opacity: 70%;
@@ -335,12 +335,4 @@ h1{
   font-size: 1.75em;
   text-align: center;
   line-height: 40px;
-}
-p{
-  padding: 0px;
-  margin: 0px;
-}
-img{
-  padding: 0px;
-  margin: 0px;
 }
