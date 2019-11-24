@@ -2,6 +2,9 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-image: linear-gradient(-60deg, #393f4d, #1d1e22);
+    border-radius: 6px;
+    height: 3000px;
 }
 ul {
     list-style-type: none;
@@ -24,13 +27,6 @@ li a:hover{
   }
 .active {
     background-color: #feda6a;
-}
-
-
-body{
-  background-image: linear-gradient(-60deg, #393f4d, #1d1e22);
-  border-radius: 6px;
-  height: 3000px;
 }
 #homephoto{
   text-align: center;
@@ -276,10 +272,11 @@ tr{
   border: 3px solid black;
 }
 .tdimg2{
-  width: 90%;
+  width:90%;
   border: 3px solid black;
 }
 .tdimg3{
+  height: 120%;
   width: 90%;
   border: 3px solid black;
 }
@@ -312,7 +309,7 @@ tr{
   border: 3px solid black;
 }
 #tdbody{
-  height: 4000px;
+  height: 3800px;
 }
 h1{
   position: relative;
@@ -325,15 +322,15 @@ h1{
   font-size: 1.75em;
 }
 #case{
+  top: -5%;
   position: relative;
-  top: -22.7%;
   color: white;
   background-color: #1d1e22;
   opacity: 70%;
   width: 90%;
   left: 5%;
-  height: 15.5%;
-  font-size: 1.75em;
+  height: 15%;
+  font-size: 200%;
   text-align: center;
   line-height: 40px;
 }
@@ -363,4 +360,7 @@ h1{
 }
 #contactbody{
   height: 1500px;
+}
+#tdbody{
+height: 4000px;
 }
